@@ -10,7 +10,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./php-app:/var/www/html
+      - ./app:/var/www/html
     depends_on:
       - db
 
